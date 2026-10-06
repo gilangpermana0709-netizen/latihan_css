@@ -1,0 +1,69 @@
+
+        h1{
+            color: blue;
+            font-family:Verdana;
+        }
+
+        p{
+        
+            font-family: Arial;
+        }
+
+        b{
+            color: green;
+        }
+        i{
+            color: yellow;
+        }
+
+    /* universal selector */
+
+    *{
+        font-family: Arial;
+    }
+
+    /* type selector */
+    h1{
+        color: blue;
+    }
+
+    h2{
+        color: green;
+    }
+    /* class selector */
+    li.list{
+        color:blueviolet;
+    }
+    li.list1{
+        color: yellow;
+    }  
+    li.list2{
+        color: blue;
+    }
+    li.list3{
+        color:yellowgreen;
+    }
+
+/* id selector */
+    #list4{
+        color: red;
+    }
+    /* child selector */
+   p> b{
+        color: green;
+    }
+    li>b{
+        color: red;
+    }
+    /* descendant selector */
+    p b{
+        color: green;
+    }
+    /*adjacent sibling selector */
+    p+h2{
+        color: blue;
+    }
+/* general sibling selector */
+    h2~p{
+        font-family: 'times new roman';
+    }
